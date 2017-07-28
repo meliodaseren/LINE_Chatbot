@@ -45,22 +45,22 @@ def callback():
 buttons_template_message = TemplateSendMessage(
     alt_text='Buttons template',
     template=ButtonsTemplate(
-        thumbnail_image_url='https://54788c11.ap.ngrok.io/images/eddie.jpg',
+        thumbnail_image_url='https://<ngrok>.ap.ngrok.io/images/eddie.jpg',
         title='Menu',
         text='Please select',
         actions=[
             PostbackTemplateAction(
                 label='postback',
-                text='同時也可以讓用戶發送文字訊息',
+                text='讓用戶發送文字訊息',
                 data='action=buy&itemid=1'
             ),
             MessageTemplateAction(
                 label='message',
-                text='資策會聊天機器人'
+                text='聊天機器人'
             ),
             URITemplateAction(
                 label='uri',
-                uri='https://www.youtube.com/watch?v=uauzw00I0wY'
+                uri='https://www.youtube.com/'
             )
         ]
     )

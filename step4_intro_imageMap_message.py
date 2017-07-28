@@ -42,12 +42,12 @@ def callback():
     return 'OK'
     
 imagemap_message = ImagemapSendMessage(
-    base_url='https://54788c11.ap.ngrok.io/images/s1',
+    base_url='https://<ngrok>.ap.ngrok.io/images/s1',
     alt_text='This is an imagemap',
     base_size=BaseSize(height=700, width=700),
     actions=[
         URIImagemapAction(
-            link_uri='https://www.youtube.com/watch?v=uauzw00I0wY',
+            link_uri='https://www.youtube.com/',
             area=ImagemapArea(
                 x=0, y=0, width=520, height=1040
             )

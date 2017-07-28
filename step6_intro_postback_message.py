@@ -44,7 +44,7 @@ def callback():
 buttons_template_message = TemplateSendMessage(
     alt_text='Buttons template',
     template=ButtonsTemplate(
-        thumbnail_image_url='https://54788c11.ap.ngrok.io/images/eddie.jpg',
+        thumbnail_image_url='<image url>',
         title='Menu',
         text='Please select',
         actions=[
@@ -59,7 +59,7 @@ buttons_template_message = TemplateSendMessage(
             ),
             URITemplateAction(
                 label='uri',
-                uri='https://www.youtube.com/watch?v=uauzw00I0wY'
+                uri='https://www.youtube.com/'
             )
         ]
     )

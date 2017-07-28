@@ -10,3 +10,5 @@ Developer Trial
   * Python 2.7.5
 * IDE
   * Jupyter Notebook
+  * Visual Studio Code
+

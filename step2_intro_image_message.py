@@ -54,14 +54,14 @@ def handle_image_message(event):
     line_bot_api.reply_message(
         event.reply_token,
         ImageSendMessage(
-            original_content_url='https://www.longines.hk/uploads/ambassador/part1/eddie-peng-longines-ambassador-800x996.jpg',
-            preview_image_url='https://www.longines.hk/uploads/ambassador/part2/eddie-peng-longines-ambassador-1600x1432.jpg')
+            original_content_url='<image url>',
+            preview_image_url='<image url>')
     )
     line_bot_api.push_message(
         '<userId>',
         ImageSendMessage(
-            original_content_url='https://www.longines.hk/uploads/ambassador/part1/eddie-peng-longines-ambassador-800x996.jpg',
-            preview_image_url='https://www.longines.hk/uploads/ambassador/part1/eddie-peng-longines-ambassador-800x996.jpg')
+            original_content_url='<image url>',
+            preview_image_url='<image url>')
     )
  
 if __name__ == "__main__":
